@@ -1,0 +1,45 @@
+.chatbar {
+    display: flex;
+    padding: 15px 20px;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    border-top: 1px solid #f5f7fb;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.chatbar:hover {
+    background-color: #e6ebf5;
+    transition: all 0.4s;
+}
+
+.chatbar-avatar {
+    height: 100%;
+    margin-right: 1rem;
+}
+
+.chatbar-info {
+    flex: 2;
+    padding: 0.4rem;
+}
+
+.chatbar-info>h4 {
+    font-size: 15px;
+    color: #495057;
+}
+
+.chatbar-info>p {
+    font-size: 14px;
+    color: #7a7f9a;
+    padding-right: 3rem;
+}
+
+.chatbar-time {
+    flex: 0.5;
+    font-size: 0.8rem;
+    align-self: flex-start;
+    position: absolute;
+    right: 20px;
+    color: #7a7f9a;
+}
